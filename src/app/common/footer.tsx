@@ -1,7 +1,7 @@
 import { FooterFirst, footerImage, footerspotlight } from "../assets";
 import Image from "next/image";
 import Icon from "../wrappers/icon";
-import { Twitter } from 'lucide-react';
+import { Link, Twitter } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -17,9 +17,9 @@ export default function Footer() {
           <p className="text-white text-lg text-center pt-2 font-mona font-normal">
             Open to opportunities, collaborations, and meaningful conversations.
           </p>
-          <div>
+          <div className="text-center flex justify-center gap-4 mt-2">
             <Icon url="https://x.com/anushree_0805" > <Twitter />"</Icon>
-            <Icon url="https://linktr.ee/Anushree_mehta" > <Twitter />"</Icon>
+            <Icon url="https://linktr.ee/Anushree_mehta" > <Link />"</Icon>
 
           </div>
         </div>
