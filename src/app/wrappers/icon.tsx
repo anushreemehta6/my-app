@@ -18,7 +18,7 @@ function Icon({ children, url }: IconProps) {
     <div
       onClick={handleClick}
       className="w-12 h-12 rounded-full 
-        bg-gradient-to-br from-purple-500 to-indigo-500 
+        bg-linear-to-br from-[#8A66FC] to-[#5A34DF]
         flex items-center justify-center text-white text-lg 
         shadow-lg hover:scale-105 transition cursor-pointer"
     >
