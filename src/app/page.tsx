@@ -1,6 +1,8 @@
 import Image from "next/image";
 import About from "./component/about";
 import Hero from "./component/hero";
+import GlimpseScatter from "./component/glimpse";
+
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
       >
         <Hero />
         <About />
+        <GlimpseScatter/>
+
       </div>
     </>
   );
