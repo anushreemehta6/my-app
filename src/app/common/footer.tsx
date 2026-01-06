@@ -11,7 +11,7 @@ export default function Footer() {
           <Image
             src={FooterFirst}
             alt="footer first"
-            className="opacity-80 w-full max-w-[420px] md:max-w-[520px] lg:max-w-[640px] h-auto"
+            className="opacity-80 w-full max-w-[220px] md:max-w-[320px] lg:max-w-[440px] h-auto"
           />
         </div>
 
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="absolute w-full overflow-hidden">
+      <div className="absolute w-full overflow-hidden ">
         <Image
           src={footerImage}
           alt="footerImage"
