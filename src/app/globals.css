@@ -51,3 +51,32 @@ body {
 .animate-marquee-reverse:hover {
   animation-play-state: paused;
 }
+
+.flip-card {
+  perspective: 1200px;
+}
+
+.flip-inner {
+  transform-style: preserve-3d;
+  transition: transform 0.7s ease;
+}
+
+.flip-card:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-face {
+  backface-visibility: hidden;
+}
+
+.flip-back {
+  transform: rotateY(180deg);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

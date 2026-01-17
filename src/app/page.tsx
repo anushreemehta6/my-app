@@ -3,6 +3,7 @@ import About from "./component/about";
 import Hero from "./component/hero";
 import GlimpseScatter from "./component/glimpse";
 import Experience from "./component/experience";
+import Project from "./component/Project";
 
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
         <About />
         <GlimpseScatter/>
         <Experience/>
-
+       <Project/>
       </div>
     </>
   );
