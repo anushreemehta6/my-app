@@ -17,12 +17,14 @@ import collectionImage9 from "./collectionImage9.jpeg"
 import collectionImage10 from "./collectionImage10.jpeg"
 import image from "./image.png"
 import trustdose from "./trustdose.png"
+import checkbox from "./checkbox.svg"
 export {
     footerImage,
     FooterFirst,
     footerspotlight,
     about1,
     img,bg,
+    checkbox,
     image,
     trustdose,
     collectionImage1,collectionImage10,collectionImage2,collectionImage3,collectionImage4,collectionImage5,collectionImage6,collectionImage7,collectionImage8,collectionImage9

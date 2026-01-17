@@ -2,6 +2,7 @@ import Image from "next/image";
 import About from "./component/about";
 import Hero from "./component/hero";
 import GlimpseScatter from "./component/glimpse";
+import Experience from "./component/experience";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
         <About />
         <GlimpseScatter/>
+        <Experience/>
 
       </div>
     </>

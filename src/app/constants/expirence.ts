@@ -2,32 +2,32 @@ import { details } from "motion/react-client";
 
 export const expirence = [
   {
-    phase: "1",
+    phase: "Phase 1",
     name: "Developer Relations & Content (DevRel)",
     startDate: "January 2025",
     endDate: "August 2025",
-    duration: "8+ Months",
+    duration: "Duration : 8+ Months",
     content: [
       {
         id: "1",
-        detail: "Drafted WhitePaper for Fluxor ",
+        details: "Drafted WhitePaper for Fluxor ",
       },
       {
         id: "2",
-        detail: "Authored technical and educational blogs around Web3",
+        details: "Authored technical and educational blogs around Web3",
       },
       {
         id: "3",
-        detail:
+        details:
           "Hosted and moderated virtual events, community sessions, and Twitter Spaces, engaging developers and Web3 enthusiasts",
       },
       {
         id: "4",
-        detail: "Drafted WhitePaper for Conscious Club  ",
+        details: "Drafted WhitePaper for Conscious Club  ",
       },
       {
         id: "5",
-        detail: " managed Fluxor’s social media presence",
+        details: " managed Fluxor’s social media presence",
       },
       {
         id: "6",
@@ -53,7 +53,7 @@ export const expirence = [
     ],
   },
   {
-    phase: "2",
+    phase: "Phase 2",
     name: "Full stack developer",
     startDate: "August 2025",
     endDate: "Currently working",
