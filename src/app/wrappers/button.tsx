@@ -16,7 +16,7 @@ function CButton({ children , className }: buttonProps) {
   return (
     <button
       onClick={handleClick}
-    className={`hidden md:inline-flex items-center justify-center h-12 px-6 rounded-full
+    className={` md:inline-flex items-center justify-center h-12 px-6 rounded-full
           bg-linear-to-br from-[#8A66FC] to-[#5A34DF]
           text-white text-lg
           shadow-lg cursor-pointer $(className)`}

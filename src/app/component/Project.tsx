@@ -11,14 +11,14 @@ const Project = () => {
           <Heading>
             A curated selection of things I’ve built and shipped.
           </Heading>
-          <p className="text-center">
+          <p className="text-center mt-4 text-sm md:text-lg">
             Real-world products built across Web2, Web3, and community-driven
             ecosystems.
           </p>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 ">
-          <div className="grid grid-cols-4 gap-6 w-max">
+          <div className="grid grid-col-1 mx-auto md:grid-cols-4 gap-6 w-max">
             {projects.map((project) => (
               <ProjectFlipCard
                 key={project.id}

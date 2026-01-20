@@ -4,6 +4,7 @@ import Hero from "./component/hero";
 import GlimpseScatter from "./component/glimpse";
 import Experience from "./component/experience";
 import Project from "./component/Project";
+import WhatIBring from "./component/WhatIBring";
 
 
 export default function Home() {
@@ -15,9 +16,10 @@ export default function Home() {
       >
         <Hero />
         <About />
+        <WhatIBring />
         <GlimpseScatter/>
         <Experience/>
-       <Project/>
+        <Project/>
       </div>
     </>
   );

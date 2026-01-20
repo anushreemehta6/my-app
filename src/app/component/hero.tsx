@@ -20,7 +20,7 @@ export default function Hero() {
         <Heading>
           Building modern web experiences, communities & ideas that scale.
         </Heading>
-        <p>
+        <p className="text-xs md:text-lg text-center">
           From content to community to code — building products with real-world
           impact.
         </p>
