@@ -52,7 +52,7 @@ const WhatIBring = () => {
             className="p-5 sm:p-6 bg-[#1E1E1E] rounded-2xl shadow-lg border-b-4 border-purple-700
                        hover:border-white transition-all duration-300 group"
           >
-            <span className="text-xs sm:text-sm text-purple-400 font-semibold uppercase tracking-wider">
+            <span className="text-xs sm:text-sm text-purple-400 font-semibold uppercase tracking-wider group-hover:text-white">
               {signal.title}
             </span>
             <h3 className="text-lg sm:text-xl font-bold text-white mt-2 mb-3 group-hover:text-purple-300 transition-colors">

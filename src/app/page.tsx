@@ -14,12 +14,24 @@ export default function Home() {
         className="bg-linear-to-r from-[#1E1E1E_8%] to-[#1E1E1E_75%]
 "
       >
-        <Hero />
-        <About />
-        <WhatIBring />
-        <GlimpseScatter/>
-        <Experience/>
-        <Project/>
+        <section id="hero">
+          <Hero />
+        </section>
+        <section id="about">
+          <About />
+        </section>
+        <section id="why-me">
+          <WhatIBring />
+        </section>
+        <section id="glimpse">
+          <GlimpseScatter />
+        </section>
+        <section id="experience">
+          <Experience />
+        </section>
+        <section id="projects">
+          <Project />
+        </section>
       </div>
     </>
   );
