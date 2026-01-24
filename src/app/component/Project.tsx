@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectFlipCard from "./projectFlipCard";
 import { projects } from "../constants/projects";
-import Heading from "../wrappers/heading";
+import Heading from "../_wrappers/heading";
 
 const Project = () => {
   return (

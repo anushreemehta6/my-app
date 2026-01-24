@@ -14,7 +14,7 @@ import {
 } from "@/app/assets";
 import { motion } from "motion/react";
 import Image, { StaticImageData } from "next/image";
-import Heading from "../wrappers/heading";
+import Heading from "../_wrappers/heading";
 
 /* ============================================
    NEW DESIGN - Bento Grid Layout

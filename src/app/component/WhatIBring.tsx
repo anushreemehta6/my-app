@@ -1,5 +1,5 @@
 import React from "react";
-import Heading from "../wrappers/heading";
+import Heading from "../_wrappers/heading";
 
 const signals = [
   {

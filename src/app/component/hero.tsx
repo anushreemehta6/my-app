@@ -1,5 +1,5 @@
 
-import Heading from "../wrappers/heading";
+import Heading from "../_wrappers/heading";
 import CoverflowCarousel from "./carousel";
 import { bg } from "../assets";
 import Image from "next/image";

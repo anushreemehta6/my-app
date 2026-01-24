@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import Image from "next/image";
 import { useState } from "react";
-import CButton from "../wrappers/button";
+import CButton from "../_wrappers/button";
 import { projects } from "../constants/projects";
 
 /* ---------- CONFIG ---------- */

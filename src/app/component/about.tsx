@@ -1,4 +1,4 @@
-import Heading from "../wrappers/heading";
+import Heading from "../_wrappers/heading";
 import Card from "./cards";
 import TechCarousel from "./skiils";
 

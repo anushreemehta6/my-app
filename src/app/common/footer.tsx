@@ -1,6 +1,6 @@
 import { FooterFirst, footerImage, footerspotlight } from "../assets";
 import Image from "next/image";
-import Icon from "../wrappers/icon";
+import Icon from "../_wrappers/icon";
 import { Link, Linkedin, Twitter } from "lucide-react";
 
 export default function Footer() {
