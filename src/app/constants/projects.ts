@@ -1,5 +1,5 @@
 import { StaticImageData } from "next/image";
-import { image, trustdose } from "../assets";
+import { bookstore, clone, image, insideOut, mitra, trustDose, trustdose, upStack } from "../assets";
 
 export type Project = {
   id: string;
@@ -19,7 +19,7 @@ export const projects: Project[] = [
     id: "1",
     title: "Upstack",
     subtitle: "Course Selling Platform",
-    image: image,
+    image: upStack,
     description:
       "A scalable full-stack platform enabling instructors to create and sell courses with dashboards, authentication, and payments.",
     features: [
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     id: "2",
     title: "BookStore",
     subtitle: "Online Book Platform",
-    image: image,
+    image: bookstore,
     description:
       "A responsive web app for discovering, purchasing, and reading books online with a clean UI.",
     techStack: [{ name: "React" }, { name: "MongoDB" }, { name: "Node.js" }],
@@ -51,7 +51,7 @@ export const projects: Project[] = [
     id: "3",
     title: "Frontend UI Clones",
     subtitle: "UI/UX Practice Projects",
-    image: image,
+    image: clone,
     description:
       "Recreated frontend clones of popular platforms to strengthen UI/UX and frontend fundamentals.",
     includes: ["Netflix", "Amazon", "Flipkart", "Zomato"],
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     id: "4",
     title: "TrustDose",
     subtitle: "Decentralized Clinical Trial Registry",
-    image: image,
+    image: trustDose,
     description:
       "A decentralized and immutable clinical trial registry built on the Flow blockchain, ensuring transparency, auditability, and public access for regulators and stakeholders.",
     techStack: [
@@ -104,7 +104,7 @@ export const projects: Project[] = [
     id: "6",
     title: "Inside-Out",
     subtitle: "AI-Powered Anonymous Chat App",
-    image: image,
+    image: insideOut,
     description:
       "A full-stack anonymous chat platform designed for Gen Z users to connect safely with AI or randomly matched peers. Focuses on privacy, emotional intelligence, and judgment-free conversations.",
     highlights: [
@@ -125,7 +125,7 @@ export const projects: Project[] = [
     id: "7",
     title: "MausamMitra",
     subtitle: "React Weather App",
-    image: image,
+    image: mitra,
     description: "A react based app that uses Open weather API to display data",
     techStack: [
       { name: "React" },

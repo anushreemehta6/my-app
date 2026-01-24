@@ -18,6 +18,12 @@ import collectionImage10 from "./collectionImage10.jpeg"
 import image from "./image.png"
 import trustdose from "./trustdose.png"
 import checkbox from "./checkbox.svg"
+import clone from "./clone.svg"
+import insideOut from "./insideOut.svg"
+import bookstore from "./bookStore.svg"
+import trustDose from "./trustDose.svg"
+import upStack from "./upStack.svg"
+import mitra from "./mitra.svg"
 export {
     footerImage,
     FooterFirst,
@@ -26,6 +32,8 @@ export {
     img,bg,
     checkbox,
     image,
+    trustDose, upStack , bookstore,insideOut,clone,
+mitra,
     trustdose,
     collectionImage1,collectionImage10,collectionImage2,collectionImage3,collectionImage4,collectionImage5,collectionImage6,collectionImage7,collectionImage8,collectionImage9
 
