@@ -5,6 +5,7 @@ import GlimpseScatter from "./component/glimpse";
 import Experience from "./component/experience";
 import Project from "./component/Project";
 import WhatIBring from "./component/WhatIBring";
+import Blogs from "./component/Blogs";
 
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
         <section id="projects">
           <Project />
         </section>
+        <section id="blogs"><Blogs/></section>
       </div>
     </>
   );

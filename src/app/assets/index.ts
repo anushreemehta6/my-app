@@ -26,13 +26,21 @@ import upStack from "./upStack.svg"
 import mitra from "./mitra.svg"
 import Blink from "./blink.png"
 import Avira from "./avira.png"
+import kerala from "./kerala.png"
+import web3 from "./web3.png"
+import analysis from "./analysis.png"
+import fluxor from "./fluxor.png"
+import cc from "./cc.png"
+import agentic from "./agentic.png"
 export {
     footerImage,
+    web3,analysis,fluxor,cc,agentic,
     FooterFirst,
     footerspotlight,
     about1,
     img,bg,
     checkbox,
+    kerala,
     image,
     trustDose, upStack , bookstore,insideOut,clone,
 mitra,

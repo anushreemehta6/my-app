@@ -2,12 +2,12 @@ import { Link } from "lucide-react";
 import Image from "next/image";
 
 type Props = {
-  image: any;
-  title: string;
-  subtitle: string;
-  description: string;
-  techStack: { name: string }[];
-  links: string;
+  image?: any;
+  title?: string | undefined;
+  subtitle?: string | undefined;
+  description?: string | undefined;
+  techStack?: { name: string }[] | undefined;
+  links?: string | undefined;
 };
 
 const ProjectFlipCard = ({
@@ -25,7 +25,7 @@ const ProjectFlipCard = ({
         <div className="flip-face absolute inset-0 rounded-2xl overflow-hidden bg-[#1E1E1E] shadow-xl p-4">
           <Image
             src={image}
-            alt={title}
+            alt={title ?? ""}
             className="object-cover rounded-2xl  "
           />
 
@@ -51,15 +51,15 @@ const ProjectFlipCard = ({
           {/* TECH STACK */}
           <div className="w-full overflow-auto">
             <div className="flex  scroll-auto flex-wrap gap-2 mt-4 w-[80%]">
-            {techStack.map((tech, idx) => (
-              <span
-                key={idx}
-                className="text-xs px-3 py-1 rounded-full bg-white/10 text-white/70"
-              >
-                {tech.name}
-              </span>
-            ))}
-          </div>
+              {(techStack ?? []).map((tech, idx) => (
+                <span
+                  key={idx}
+                  className="text-xs px-3 py-1 rounded-full bg-white/10 text-white/70"
+                >
+                  {tech.name}
+                </span>
+              ))}
+            </div>
           <div className="absolute bottom-4  right-4 w-[20%]">
             <a
               href={links}
