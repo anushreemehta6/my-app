@@ -56,7 +56,7 @@ export const expirence = [
     phase: "Phase 2",
     name: "Full stack developer",
     startDate: "August 2025",
-    endDate: "Currently working",
+    endDate: "January 2026",
     content: [
       {
         details:
@@ -78,7 +78,7 @@ export const expirence = [
           "Collaborated cross-functionally with design, marketing, and product teams to ensure seamless user experiences.",
       },
     ],
-    continue: "The experience adds on everyday....",
+    // continue: "The experience adds on everyday....",
     footer: [
       {
         name: "React",
