@@ -24,6 +24,8 @@ import bookstore from "./bookStore.svg"
 import trustDose from "./trustDose.svg"
 import upStack from "./upStack.svg"
 import mitra from "./mitra.svg"
+import Blink from "./blink.png"
+import Avira from "./avira.png"
 export {
     footerImage,
     FooterFirst,
@@ -34,7 +36,9 @@ export {
     image,
     trustDose, upStack , bookstore,insideOut,clone,
 mitra,
+Blink,
     trustdose,
+    Avira,
     collectionImage1,collectionImage10,collectionImage2,collectionImage3,collectionImage4,collectionImage5,collectionImage6,collectionImage7,collectionImage8,collectionImage9
 
 }

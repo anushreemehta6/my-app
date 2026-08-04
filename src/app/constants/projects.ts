@@ -1,5 +1,5 @@
 import { StaticImageData } from "next/image";
-import { bookstore, clone, image, insideOut, mitra, trustDose, trustdose, upStack } from "../assets";
+import { Avira, Blink, bookstore, clone, image, insideOut, mitra, trustDose, trustdose, upStack } from "../assets";
 
 export type Project = {
   id: string;
@@ -133,5 +133,32 @@ export const projects: Project[] = [
       { name: "Open weather API" },
     ],
     links: "https://github.com/anushreemehta6/Mausam-Mitra",
+  },
+  {
+    id: "8",
+    title: "Blink",
+    subtitle: "Prediction market",
+    image: Blink,
+    description: "Blink is a permissionless 30‑second crypto prediction arcade on Monad where the price chart is the controller. MetaMask ERC‑7715 sessions and make every tap a gasless, one‑tap prediction on live ETH, BTC, SOL and BNB rounds.",
+    techStack: [
+      { name: "React" },
+      { name: "Tailwind" },
+      { name: "Monad blockchain" },
+      { name: "MetaMask advance permission" },
+    ],
+    links: "https://youtu.be/9Ah5UciIXSc?feature=shared",
+  },
+  {
+    id: "9",
+    title: "Avira jewelry",
+    subtitle: "jewelry website - Ecommerce",
+    image: Avira,
+    description: "An E-commerce jewerly website with admin dashboard.",
+    techStack: [
+      { name: "nextjs" },
+      { name: "Tailwind" },
+     
+    ],
+    links: "https://zivora-4ac5gt23p-anushrees-projects-2affea92.vercel.app/",
   },
 ];

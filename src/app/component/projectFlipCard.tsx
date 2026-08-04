@@ -49,8 +49,8 @@ const ProjectFlipCard = ({
           </div>
 
           {/* TECH STACK */}
-          <div className="w-full">
-            <div className="flex flex-wrap gap-2 mt-4 w-[80%]">
+          <div className="w-full overflow-auto">
+            <div className="flex  scroll-auto flex-wrap gap-2 mt-4 w-[80%]">
             {techStack.map((tech, idx) => (
               <span
                 key={idx}
